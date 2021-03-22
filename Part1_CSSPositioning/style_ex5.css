@@ -7,25 +7,43 @@ body {
 
 /* For class sections created */
 .one {
+    position: fixed;
+    display: inline-block;
     width: 400px;
     height: 400px;
     background-color: red;
+    z-index: 1;
 }
 
 .two {
+    position: fixed;
+    display: inline-block;
     width: 300px;
     height: 300px;
     background-color: yellow;
+    z-index: 2;
+    right: .3em;
+    bottom: 0em;
+
 }
 
 .three {
+    position: fixed;
+    display: inline-block;
     width: 200px;
     height: 200px;
     background-color: green;
+    z-index: 3;
+    bottom: 18.5em;
 }
 
 .four {
+    position: fixed;
+    display: inline-block;
     width: 100px;
     height: 100px;
     background-color: blue;
+    z-index: 4;
+    top: .3em;
+    left: .3em;
 }

@@ -1,4 +1,4 @@
-/* Exercise 2 Move the blue box to the top right corner */
+/* Exercise 4: Create four boxes insides each other. See image for example */
 body {
     margin: 0;
     border: 5px solid black;
@@ -9,34 +9,42 @@ body {
 /* For class sections created */
 .one {
     position: fixed;
+    display: inline-block;
     width: 400px;
     height: 400px;
     background-color: red;
     z-index: 1;
 }
-
+/* Margin based off red square*/
 .two {
     position: absolute;
+    display: inline-block;
     width: 300px;
     height: 300px;
     background-color: yellow;
+    margin-top: 25%;
+    margin-left: 25%;
     z-index: 2;
 }
-
+/* Moved green to top left */
 .three {
     position: absolute;
+    display: inline-block;
     width: 200px;
     height: 200px;
     background-color: green;
+    right: 66.6%;
+    bottom: 66.6%;
     z-index: 3;
 }
-/* Move  with fixed to page, then used top and right with em to fit in the corner*/
+/* Blue square to bottom right of green square */
 .four {
-    position: fixed;
+    position: absolute;
+    display: inline-block;
     width: 100px;
     height: 100px;
     background-color: blue;
+    margin-top: 50%;
+    margin-left: 50%;
     z-index: 4;
-    top: .3em;
-    right: .3rem;
 }
