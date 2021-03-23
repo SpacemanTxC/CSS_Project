@@ -1,0 +1,14 @@
+a {
+    display: inline-block;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 2em;
+}
+
+a:hover{
+    background-color: teal;
+}
