@@ -1,0 +1,47 @@
+/* Size images */
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    z-index: 1;
+}
+/* Center Main Div */
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Invisible Text before hand */
+.display-text{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    z-index: 2;
+    color:white;
+    height: 200px;
+    width: 200px;
+
+}
+/* Moves text delayed */
+.content:hover .display-text{
+    bottom: 7em;
+    transition: all .4s ease; ;
+}
+/* Opacity to make the image delayed */
+.content:hover {
+    opacity: 0.5;
+    transition: all .4s ease;
+
+}
+
+/* Balance images across the page */
+#wanna-dance {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+#wanna-dance-text {
+    margin-left: 5em;
+    margin-right: 5em;
+}
