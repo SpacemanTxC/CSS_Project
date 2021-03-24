@@ -1,3 +1,4 @@
+/* Create the red & blue box in the top left while the green & yellow are bottom right*/
 body {
     margin: 0;
     border: 5px solid black;
@@ -5,7 +6,7 @@ body {
     position: relative;
 }
 
-/* For class sections created */
+/* Fixes the red box top left */
 .one {
     position: fixed;
     display: inline-block;
@@ -14,7 +15,7 @@ body {
     background-color: red;
     z-index: 1;
 }
-
+/* Moves the yellow to bottom right */
 .two {
     position: fixed;
     display: inline-block;
@@ -26,7 +27,7 @@ body {
     bottom: 0em;
 
 }
-
+/* Fixes the green square to ontop of the yellow */
 .three {
     position: fixed;
     display: inline-block;
@@ -36,7 +37,7 @@ body {
     z-index: 3;
     bottom: 18.5em;
 }
-
+/* Fixes the blue square in the red one */
 .four {
     position: fixed;
     display: inline-block;

@@ -1,3 +1,4 @@
+/* Creates a rounded blue button with center text */
 a {
     display: inline-block;
     background-color: lightblue;
@@ -8,7 +9,7 @@ a {
     border-radius: 8px;
     margin-top: 2em;
 }
-
+/* Add the effect of changing color when hovered */
 a:hover{
     background-color: teal;
 }

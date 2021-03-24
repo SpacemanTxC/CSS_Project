@@ -1,25 +1,40 @@
-
+/* Move the container to the middle */
+div {
+    margin-left: 25%;
+}
+/* sizes of the container image while rounding the edges, color*/
 .cat{
     display: inline-block;
     position: relative;
-    background-color: grey;
-    border: 2px solid black;
+    background-color: lightgray;
+    border: 2px solid none;
     border-radius: 8px;
     max-width: 50%;
     max-height: 50%;
     align-items: center;
 }
 
-img {
+/* Makes the image center & sizes */
+.image-cat {
     display: inline-block;
     position: relative;
+    border-radius: 8px 8px 0 0;
     width: 100%;
     height: 50%;
     align-self: center;
 }
-
-h1{
+/* Creates thye line under i iz a catz */
+.title-cat{
     display: inline-block;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     width: 100%;
+}
+
+/* Moves paragraph over */
+.text-cat{
+    padding-left: 2em;
+}
+/* Moves cat title over */
+.indent-title-cat{
+    margin-left: 1em;
 }
